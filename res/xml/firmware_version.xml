@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Styx Project version -->
+    <Preference
+        android:key="styx_version"
+        android:title="@string/styx_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StyxProjectVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
