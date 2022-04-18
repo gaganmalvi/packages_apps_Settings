@@ -62,6 +62,15 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
+    <!-- Build ID -->
+    <Preference
+        android:key="styx_build_id"
+        android:title="@string/styx_build_id"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StyxProjectBuildPreferenceController"/>
+
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"

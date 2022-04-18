@@ -18,5 +18,6 @@
 
     <!-- Styx Project version -->
     <string name="styx_version">Styx Project version</string>
+    <string name="styx_build_id">Styx Project Build ID</string>
 
 </resources>
